@@ -48,7 +48,7 @@
   #error "PWR configuration is missing. Check flag HAL_PWR_MODULE_ENABLED in variants/board_name/stm32yzxx_hal_conf.h"
 #endif
 
-#include "STM32RTC.h"
+//#include "STM32RTC.h"
 
 enum LP_Mode : uint8_t {
   IDLE_MODE,
